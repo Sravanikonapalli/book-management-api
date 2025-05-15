@@ -64,11 +64,11 @@ A simple RESTful API for managing a collection of books, built with Node.js, Exp
 4. **Run the server**
 
 *frontend*
-    ```bash
+    ```
     npm start
     ```
 *backend*
-    ```bash
+    ```
     node server.js
     ```
 
