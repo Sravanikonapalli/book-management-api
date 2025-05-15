@@ -88,7 +88,7 @@ A simple RESTful API for managing a collection of books, built with Node.js, Exp
 ## Live Links
 
 - [Backend live link](https://book-management-api-u4d9.onrender.com)
-- [Frontend live link]()
+- [Frontend live link](https://book-management-api-wheat.vercel.app/)
 
 ---
 
