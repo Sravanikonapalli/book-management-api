@@ -5,13 +5,13 @@ const BookList = ({ onEdit }) => {
   const [books, setBooks] = useState([]);
 
   const fetchBooks = async () => {
-    const res = await fetch('http://localhost:7000/books');
+    const res = await fetch('https://book-management-api-u4d9.onrender.com/books');
     const data = await res.json();
     setBooks(data);
   };
 
   const handleDelete = async (id) => {
-    await fetch(`http://localhost:7000/books/${id}`, { method: 'DELETE' });
+    await fetch(`https://book-management-api-u4d9.onrender.com/books/${id}`, { method: 'DELETE' });
     fetchBooks();
   };
 

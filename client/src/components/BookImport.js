@@ -8,7 +8,7 @@ const BookImport = ({ onImported }) => {
   const handleImport = async () => {
     const formData = new FormData();
     formData.append('file', file);
-    const res = await fetch('http://localhost:7000/books/import', {
+    const res = await fetch('https://book-management-api-u4d9.onrender.com/books/import', {
       method: 'POST',
       body: formData
     });

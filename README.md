@@ -46,7 +46,7 @@ A simple RESTful API for managing a collection of books, built with Node.js, Exp
 
 1. **Clone the repository**
     ```bash
-    git clone https://github.com/your-username/book-management-api.git
+    git clone https://github.com/Sravanikonapalli/book-management-api.git
     cd book-management-api
     ```
 
@@ -87,7 +87,7 @@ A simple RESTful API for managing a collection of books, built with Node.js, Exp
 
 ## Live Links
 
-- [Backend live link]()
+- [Backend live link](https://book-management-api-u4d9.onrender.com)
 - [Frontend live link]()
 
 ---
